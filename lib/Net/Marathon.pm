@@ -27,7 +27,7 @@ Otherwise it is the same, more differences may come in future versions.
 
 This module is a wrapper around the [Marathon REST API](http://mesosphere.github.io/marathon/docs/rest-api.html), so it can be used without having to write JSON by hand.
 
-For the most common tasks, there is a helper method in the main module. Some additional metods are found in the Net::Marathon::App etc. submodules.
+For the most common tasks, there is a helper method in the main module. Some additional methods are found in the Net::Marathon::App etc. submodules.
 
 To start, create a marathon object:
 
@@ -237,7 +237,7 @@ sub metrics {
 
 =head2 help
 
-returns the html returned by the /help endpoint.
+returns the HTML returned by the /help endpoint.
 
 =cut
 
@@ -248,7 +248,7 @@ sub help { # string (html)
 
 =head2 logging
 
-returns the html returned by the /logging endpoint.
+returns the HTML returned by the /logging endpoint.
 
 =cut
 
